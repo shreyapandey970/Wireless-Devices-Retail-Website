@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+<style>
+body{background-image: url('back.jpeg'); 
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     }
+#abc{font-size:43px;}
+h1{text-align:center; color:gold; font-family:Lucida handwriting;}
+h3{text-align:center; color:white; font-family:Lucida handwriting;}
+a{text-decoration:none;}
+ul{list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{float: left;}
+li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;}
+li a:hover {background-color: #111;}
+hr{color:black;background-color:gray; height:3px; }
+#def{background-color:#333; font-family:Calibri; font-size:18px;}
+img{height:20px; width:20px;}
+.c{background-color:Lavender;  border-radius:25px; height:400px; text-align:center;}
+
+
+</style>
+</head>
+<body>
+
+<header>
+<h1 id="abc"> ERA </h1>
+<h3>THE NEW WIRELESS GENERATION </h3>
+</header>
+<hr>
+
+<nav>
+<ul>
+<li><a href="homepage.html">HOME</a>
+<li><a href="products.html">PRODUCTS</a>
+<li><a href="aboutus.html">ABOUT US</a>
+<li><a href="support.html">SUPPORT</a>
+<li><a href="contact.html">CONTACT US</a>
+</ul>
+
+<br>
+</nav>
+
+<section class="c">
+<br>
+<p style=" font-size:25px; color:DimGray; font-family:"Roboto";">WE PROMISE TO KEEP YOUR DATA SAFE!</p>
+<br>
+
+<script language="javascript">
+
+function res()
+{
+	window.alert("Your Data has been erased.");
+}
+</script>
+
+ 		<form method="post" action="mini.php">
+ 		<table align="center">
+		<tr>	
+		<td>Name : </td>
+         <td><input type="text" id="name" name="name"></td>
+         </tr>
+		<tr>	
+		<td>Address: </td>
+         <td><textarea id="address" name="address"></textarea></td>
+         </tr>
+		<tr>	
+		<td>E-mail : </td>
+         <td><input type="email" id="email" name="email"></td>
+         </tr>
+		<tr>
+		<td>Phone No. : </td>
+		  <td><input type="tel" id="phone" name="phone"></td>
+		</tr>
+		<tr>	
+		<td>Query : </td>
+         <td><textarea id="doubt" name="doubt"></textarea></td>
+         </tr> 
+ 		<tr>
+		<td>Was this your first time on our website?</td>
+		<td><input type="text" id="yen" name="yen"></td>
+		</tr>
+      	<tr>
+		<td><br><input type="submit" value="SUBMIT"></td>
+       	<td><br><input type="reset" value="CLEAR" onclick="res()"></td>
+		</tr>
+		</table>
+     	</form>
+</section>
+
+
+<hr>
+<footer>
+<h3 id="def">CONNECT WITH US<br>
+<a href="https://www.facebook.com/"><img src="facebook.png"></a>&nbsp;&nbsp;
+<a href="https://twitter.com/login?lang=en"><img src="twitter.png"></a>&nbsp;&nbsp;
+<a href="https://www.instagram.com/"><img src="instagram.png"></a>&nbsp;&nbsp; 
+<a href="https://www.youtube.com/"><img src="youtube.png"></a>&nbsp;&nbsp; 
+<a href="https://www.linkedin.com/"><img src="linkedin.png"></a>
+<br><br>©2008-2022. ALL RIGHTS RESERVED.</h3>
+</footer>
+
+</body>
+</html>
+
