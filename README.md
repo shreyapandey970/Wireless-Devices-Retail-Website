@@ -1,3 +1,5 @@
 # Wireless Devices Retail Website
 
-A pure HTML,CSS, PHP
+A pure website developed using HTML,CSS and PHP. Given below is a glimpse of the site.
+
+
